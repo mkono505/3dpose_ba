@@ -12,7 +12,7 @@ Get and install cvsba from the following repo.
 
 
 # Testing
-There is a great example provided here.
+There is a great example provided here.  
 <https://github.com/sunglok/3dv_tutorial>  
 [LICENSE](https://github.com/sunglok/3dv_tutorial/blob/master/LICENSE)  
 The codes in **Multi-View Geometory** uses cvsba.  
