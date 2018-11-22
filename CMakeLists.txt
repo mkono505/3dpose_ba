@@ -1,0 +1,6 @@
+project(bundle_tester)
+SET(CMAKE_MODULE_PATH ${CMAKE_INSTALL_PREFIX}/lib/cmake/ )
+find_package(OpenCV REQUIRED )
+find_package(cvsba REQUIRED )
+add_executable(bundle_tester bundle_tester.cpp)
+target_link_libraries(bundle_tester ${OpenCV_LIBS} ${cvsba_LIBS})
